@@ -7,7 +7,7 @@ public class DaireCevresiVeAlan {
         System.out.print("Dairenin Yarıçapını Giriniz: ");
         r = girdi.nextDouble();
 
-        System.out.println("Dairenin Merkez Açısının Ölçüsünü Giriniz: ");
+        System.out.print("Dairenin Merkez Açısının Ölçüsünü Giriniz: ");
         alfa = girdi.nextDouble();
 
         diliminAlanı = (pi * (r*r) * alfa) / 360;
